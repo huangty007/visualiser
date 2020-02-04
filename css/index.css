@@ -1,0 +1,248 @@
+/* .navbar-nav li:not(:last-child)::after {
+    content:'';
+    float:left;
+    width: 1px;
+    height: 14px;
+    background-color: #000000;
+    
+} */
+.jumbotron{
+    margin-bottom: 0rem!important;
+}
+
+.body-top {
+    margin-top: 2rem;
+}
+
+.nav-brand h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255,255,255,.5);
+}
+
+nav[data-toggle="toc"] {
+    margin-top: 42px;
+  }
+
+
+.page{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+ 
+.header,
+.content {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+ 
+.content {
+	top: 74px;
+	bottom: 1px;
+	overflow: auto;
+}
+
+.sectitle{
+    padding-top: 20px;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+    /* override stickyness so that the navigation does not follow scrolling */
+    nav[data-toggle="toc"] {
+      margin-bottom: 42px;
+      position: static;
+    }
+  
+    /* PICK ONE */
+    /* don't expand nested items, which pushes down the rest of the page when navigating */
+    nav[data-toggle="toc"] .nav .active .nav {
+      display: none;
+    }
+    /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+    /*
+    nav[data-toggle='toc'] .nav .nav {
+      display: block;
+    }
+    */
+  }
+
+.help{
+    width:1.3rem;
+    height:1.3rem;
+    margin-top: 0.5rem;
+    margin-left: -0.5rem;
+    /* vertical-align: center */
+    text-align: center;
+    color: #fff;
+    font-size:80%;
+    background: #000;
+    border-radius: 50%;
+}
+
+label{
+    text-align: right!important;
+}
+
+hr.output {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+
+hr.component {
+    padding: 0;
+    border: none;
+    border-top: medium double #17202A;
+    color: #17202A;
+    text-align: center;
+    width: 300px;
+}
+hr.component:after {
+    content:attr(component);
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 0 0.25em;
+    background: white;
+}
+
+label b{
+    display: inline-block;
+    width:150px;
+}
+
+.svg-area{
+    border: 2px solid #17202A;
+    width: 600px;
+    float: left;
+}
+
+.intext{
+    margin-left: -50px;
+    width: 350px;
+    display: inline-block;
+}
+
+/* .facesedges::after{
+    content: attr(follow);
+    color: #B3B6B7;
+} */
+
+.tooltip{
+    position: absolute;
+    width: auto;
+    height: auto;
+    /* font-family: simsun; */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border:2px solid #D7DBDD;
+    background-color: #F2F3F4;
+    border-radius: 5px;
+    color:#17202A;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: -200px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.1s ease-out 0.5s;
+    transition: all 0.1s ease-out 0.5s;
+  }
+
+  .hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    top: 0px;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  
+  .hovereffect div canvas {
+    display: block;
+    position: relative;
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 14px;
+    border: 1px solid #17202A;
+    margin: 10px 0 0 0;
+    color: #17202A!important;
+    align-self:flex-end;
+    background-color: transparent;
+  }
+
+  .hovereffect p{
+    margin-top:15px;
+    color: #17202A!important;
+    text-transform:unset!important;
+  }
+  
+  .hovereffect a.info:hover{
+    box-shadow: 0 0 5px #17202A;
+  }
+  
+  .hovereffect a.info, .hovereffect h2,.hovereffect p {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    color: #FBFCFC;
+    text-transform: uppercase;
+  }
+
+  .hovereffect:hover a.info,.hovereffect:hover p, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  p a{
+    color: #CD5C5C;
+    font-weight: bold;
+  }
+
+
+img {
+    width: 100%;
+    height: 100%;
+}

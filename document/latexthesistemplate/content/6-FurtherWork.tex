@@ -1,0 +1,47 @@
+% !TeX encoding=utf8
+% !TeX spellcheck = en-US
+
+\chapter{Further work}
+
+\section{Achievements}
+
+After testing the visualisation methods and the system in the section 6,most of the specifications are satisfied. The tool has the functions to pursue the drawing the combinatorial maps and visualising the vital features of the maps.
+\begin{itemize}
+    \item The introduction page and the head of the visualiser page help the users learn the combinatorial maps and know the basic structure of the tool.
+    \item The tools support three kinds of input to satisfy different requirement of users. The existed examples which are the typical combinatorial maps help the user experience the whole process of the tool; people can also try and test their own sample using the specific input; if users have no much idea about the combinatorial maps, they can receive a random map from the random section by just enter the number of darts.
+    \item The tool can parsing the users input and convert the input into an accessible format. It can also convert the one-line notation permutation to the cycle-notation, or reversely.
+    \item The tool can calculate the faces with the help of edges permutations and vertices permutations according to the equation \(\phi=\sigma o \alpha\). It visualises all the permutations under both notations, as well.
+    \item The visualiser can draw the tree structure using tree drawing algorithm. Under the tree model (spanning tree), the whole structure of combinatorial maps can be drew.
+    \item A improved version of tree based methods also be implemented. This algorithm makes the result more transparent and tidy.
+    \item Another method based on the dual of combinatorial maps is implemented, as well. The results of the method is clearer, but losing the connectivity between each face.
+    \item To improve legibility of the visualisation, some interactive functions are added, for example, highlight the edges and vertices, indicating them for a tips and zooming the each canvas.
+\end{itemize}
+
+\section{Issues}
+
+However, some issues occur in the testing results, which mainly around the visualisation approaches.
+\begin{itemize}
+    \item The methods under the spanning tree structure cannot avoid the crossing, especially for the first method which never avoid crossing at all. It even cannot generate a clear structure.
+    \item The faces based method cannot shows the structure directly, that is to say, it needs an extra work for users to glue the faces together.
+    \item When generating a large combinatorial maps with a lot of number of darts like 100 and the number of vertices is more than half of darts, the system might be blocked or delay generating the maps. The reason why this problem appears is the function that generates the permutation of vertices. Since, the probability of generating a \(VC\) contains empty members, as it was mentioned before, the empty elements cannot appear in the final result.
+\end{itemize}
+
+\section{Future improvement}
+
+\subsection{Drawing methods}
+
+\subsubsection{Tree based method}
+Though there is an improved version of the first tree based method, but it can be better by itself. After the darts fixed, it can simulate the connecting approach in the second method by discussing different connection situations.  Through checking the directions of the two pre-connected darts to determine which side of space the curves might go through.
+
+\subsubsection{Faces based method}
+Gluing the faces is the next work of the method. The core idea is that if two darts of two faces are tied together,  rotating one of the faces clockwise so that the darts can fit together. Following the steps until all the faces are gluing together. In order to reestablish the surface which the maps embedded in, the folding method could be used.  However, the research of the folding algorithms stays in theoretical stage without the actual algorithmic process\cite{demaine2005survey} so that there is no effective measure for building a 3-dimensional or higher-dimensional surface from the 2-dimensional map.
+
+\subsection{Interactions}
+
+Additional interactions make the tool more entirely and practically.
+
+\subsubsection{Save images}
+The result of drawing is the SVG format. A saving functions to save the image into different format such as PNG, JPG and SVG. There is a method for convert the SVG format into the PNG in the JAVASCRIPT as the \textit{showInCanvas()} in the file \textit{type1.js}.  After that, the image can be download as the PNG.
+
+\subsubsection{Animated operations}
+The  zooming behaviour has been added into each result. One more operation, dragging is necessary too. Under the behaviour, people can drag and turn the faces in the last method to connect the them manually to make up for the lack of gluing faces. Meanwhile, it also enhances users expression of knowledges of equivalent for two maps.

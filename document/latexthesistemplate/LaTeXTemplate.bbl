@@ -1,0 +1,668 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{bostock2015d3}{misc}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3a56f801778dd81bf67b8f9cdccacb12}{%
+           family={Bostock},
+           familyi={B\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db06636f3d994b0ed5101ca1f51ec65e}
+      \strng{fullhash}{db06636f3d994b0ed5101ca1f51ec65e}
+      \strng{bibnamehash}{db06636f3d994b0ed5101ca1f51ec65e}
+      \strng{authorbibnamehash}{db06636f3d994b0ed5101ca1f51ec65e}
+      \strng{authornamehash}{db06636f3d994b0ed5101ca1f51ec65e}
+      \strng{authorfullhash}{db06636f3d994b0ed5101ca1f51ec65e}
+      \field{labelalpha}{Bos19}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{D3. js-data-driven documents}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://d3js.org/
+      \endverb
+      \verb{url}
+      \verb https://d3js.org/
+      \endverb
+    \endentry
+    \entry{buchheim2002improving}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=34c586758e534bad066e6aa3fc210926}{%
+           family={Buchheim},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5426ecf57f16fd9c16f77ae30790d8ce}{%
+           family={J{ü}nger},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=307f75ebf0268c21554f4c6cf838f86c}{%
+           family={Leipert},
+           familyi={L\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c4070170c6e6c5f41f80f217d6ee9515}
+      \strng{fullhash}{f7815972598396382300e95e0b0b774b}
+      \strng{bibnamehash}{f7815972598396382300e95e0b0b774b}
+      \strng{authorbibnamehash}{f7815972598396382300e95e0b0b774b}
+      \strng{authornamehash}{c4070170c6e6c5f41f80f217d6ee9515}
+      \strng{authorfullhash}{f7815972598396382300e95e0b0b774b}
+      \field{labelalpha}{Buc02}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Symposium on Graph Drawing}
+      \field{title}{Improving Walker’s algorithm to run in linear time}
+      \field{year}{2002}
+      \field{pages}{344\bibrangedash 353}
+      \range{pages}{10}
+    \endentry
+    \entry{demaine2005survey}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fc85be49337aabcb7dc459e6b522b916}{%
+           family={Demaine},
+           familyi={D\bibinitperiod},
+           given={Erik\bibnamedelima D},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=358991c05cbc6157d06af8486672eafe}{%
+           family={O’Rourke},
+           familyi={O\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c1690b5bc65adac85a6e082a3fc9f257}
+      \strng{fullhash}{c2d2df549b48037128df761de78c0162}
+      \strng{bibnamehash}{c2d2df549b48037128df761de78c0162}
+      \strng{authorbibnamehash}{c2d2df549b48037128df761de78c0162}
+      \strng{authornamehash}{c1690b5bc65adac85a6e082a3fc9f257}
+      \strng{authorfullhash}{c2d2df549b48037128df761de78c0162}
+      \field{labelalpha}{Dem05}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Combinatorial and computational geometry}
+      \field{title}{A survey of folding and unfolding in computational geometry}
+      \field{volume}{52}
+      \field{year}{2005}
+      \field{pages}{167\bibrangedash 211}
+      \range{pages}{45}
+    \endentry
+    \entry{edmonds1960combinatorial}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5cdccea511cf38376ce151ffdc6c1516}{%
+           family={Edmonds},
+           familyi={E\bibinitperiod},
+           given={J.R.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Maryland}%
+      }
+      \strng{namehash}{5cdccea511cf38376ce151ffdc6c1516}
+      \strng{fullhash}{5cdccea511cf38376ce151ffdc6c1516}
+      \strng{bibnamehash}{5cdccea511cf38376ce151ffdc6c1516}
+      \strng{authorbibnamehash}{5cdccea511cf38376ce151ffdc6c1516}
+      \strng{authornamehash}{5cdccea511cf38376ce151ffdc6c1516}
+      \strng{authorfullhash}{5cdccea511cf38376ce151ffdc6c1516}
+      \field{labelalpha}{Edm60}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Combinatorial Representation for Oriented Polyhedral Surfaces}
+      \field{year}{1960}
+      \verb{urlraw}
+      \verb https://books.google.co.uk/books?id=vo2ENwAACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.co.uk/books?id=vo2ENwAACAAJ
+      \endverb
+    \endentry
+    \entry{tocplugin2019}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d74c99fe7d19508496aa80f3fdf921c2}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={Aidan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d74c99fe7d19508496aa80f3fdf921c2}
+      \strng{fullhash}{d74c99fe7d19508496aa80f3fdf921c2}
+      \strng{bibnamehash}{d74c99fe7d19508496aa80f3fdf921c2}
+      \strng{authorbibnamehash}{d74c99fe7d19508496aa80f3fdf921c2}
+      \strng{authornamehash}{d74c99fe7d19508496aa80f3fdf921c2}
+      \strng{authorfullhash}{d74c99fe7d19508496aa80f3fdf921c2}
+      \field{labelalpha}{Fel19}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Table of Contents plugin for Bootstrap}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://afeld.github.io/bootstrap-toc
+      \endverb
+      \verb{url}
+      \verb https://afeld.github.io/bootstrap-toc
+      \endverb
+    \endentry
+    \entry{fisher1943statistical}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=35dd876b7f17d154bcff325475f5d212}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Ronald\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ffa6ec82953eaf8898c877b5bd3e8954}{%
+           family={Yates},
+           familyi={Y\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Oliver}%
+        {Boyd Ltd, London}%
+      }
+      \strng{namehash}{a0f65598c36bec64407733ac5e9506d7}
+      \strng{fullhash}{853ca912afef3cbc992e2b21cf7dbdda}
+      \strng{bibnamehash}{853ca912afef3cbc992e2b21cf7dbdda}
+      \strng{authorbibnamehash}{853ca912afef3cbc992e2b21cf7dbdda}
+      \strng{authornamehash}{a0f65598c36bec64407733ac5e9506d7}
+      \strng{authorfullhash}{853ca912afef3cbc992e2b21cf7dbdda}
+      \field{labelalpha}{Fis43}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Statistical tables for biological, agricultural and medical research}
+      \field{year}{1943}
+    \endentry
+    \entry{de2002pigale}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6cfdafd280bba1146e8f966ea64be07a}{%
+           family={Fraysseix},
+           familyi={F\bibinitperiod},
+           given={Hubert},
+           giveni={H\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{uniquename=0,uniquepart=base,hash=97cfdee68e6955d745b3ccb913f5d828}{%
+           family={Mendez},
+           familyi={M\bibinitperiod},
+           given={P\bibnamedelima Ossona},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{fcba266894678b9e1a2335f5afacb142}
+      \strng{fullhash}{4c4ef49af6cff4045ee1d85cbbc0298f}
+      \strng{bibnamehash}{4c4ef49af6cff4045ee1d85cbbc0298f}
+      \strng{authorbibnamehash}{4c4ef49af6cff4045ee1d85cbbc0298f}
+      \strng{authornamehash}{fcba266894678b9e1a2335f5afacb142}
+      \strng{authorfullhash}{4c4ef49af6cff4045ee1d85cbbc0298f}
+      \field{labelalpha}{Fra13}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{19}
+      \field{journaltitle}{Handbook of Graph Drawing and Visualization}
+      \field{title}{PIGALE-Public Implementation of a Graph Algorithm Library and Editor}
+      \field{year}{2013}
+    \endentry
+    \entry{haxhimusa2005hierarchical}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=2e8d6513dd84f5da15e823315eb3d671}{%
+           family={Haxhimusa},
+           familyi={H\bibinitperiod},
+           given={Yll},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=33aa322903a1df435fbab23bc525eaca}{%
+           family={Ion},
+           familyi={I\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b196b8d36916c5832fd2d5fba7d8f8c8}{%
+           family={Kropatsch},
+           familyi={K\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=235b8d3f5fce5e3b70c0ad27d50fcc45}{%
+           family={Brun},
+           familyi={B\bibinitperiod},
+           given={Luc},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{533860af4cb43b633bab39fbe48e51b3}
+      \strng{fullhash}{b5b30cabe2753e78b2336fc35e1d0e77}
+      \strng{bibnamehash}{b5b30cabe2753e78b2336fc35e1d0e77}
+      \strng{authorbibnamehash}{b5b30cabe2753e78b2336fc35e1d0e77}
+      \strng{authornamehash}{533860af4cb43b633bab39fbe48e51b3}
+      \strng{authorfullhash}{b5b30cabe2753e78b2336fc35e1d0e77}
+      \field{labelalpha}{Hax05}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Joint Hungarian-Austrian Conference on Image Processing and Pattern Recognition}
+      \field{title}{Hierarchical image partitioning using combinatorial maps}
+      \field{year}{2005}
+      \field{pages}{179\bibrangedash 186}
+      \range{pages}{8}
+    \endentry
+    \entry{tingyu2019drawer}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cd2f5bdad4adb956f7ded7194a49206a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Tingyu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd2f5bdad4adb956f7ded7194a49206a}
+      \strng{fullhash}{cd2f5bdad4adb956f7ded7194a49206a}
+      \strng{bibnamehash}{cd2f5bdad4adb956f7ded7194a49206a}
+      \strng{authorbibnamehash}{cd2f5bdad4adb956f7ded7194a49206a}
+      \strng{authornamehash}{cd2f5bdad4adb956f7ded7194a49206a}
+      \strng{authorfullhash}{cd2f5bdad4adb956f7ded7194a49206a}
+      \field{labelalpha}{Hua19}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Different techniques for visualization of combinatorial map}
+      \field{year}{2019}
+    \endentry
+    \entry{jacques1969constellations}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=457dc171448256ba6ff7c9ec7055854b}{%
+           family={Jacques},
+           familyi={J\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Facult{é} des Sciences, Universit{é} de Paris}%
+      }
+      \strng{namehash}{457dc171448256ba6ff7c9ec7055854b}
+      \strng{fullhash}{457dc171448256ba6ff7c9ec7055854b}
+      \strng{bibnamehash}{457dc171448256ba6ff7c9ec7055854b}
+      \strng{authorbibnamehash}{457dc171448256ba6ff7c9ec7055854b}
+      \strng{authornamehash}{457dc171448256ba6ff7c9ec7055854b}
+      \strng{authorfullhash}{457dc171448256ba6ff7c9ec7055854b}
+      \field{labelalpha}{Jac69}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Constellations et propri{é}t{é}s alg{é}briques des graphes topologiques}
+      \field{type}{phdthesis}
+      \field{year}{1969}
+    \endentry
+    \entry{kobourovg}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=123e113ab51eb0c183fe920eb804b36b}{%
+           family={Kobourov},
+           familyi={K\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{123e113ab51eb0c183fe920eb804b36b}
+      \strng{fullhash}{123e113ab51eb0c183fe920eb804b36b}
+      \strng{bibnamehash}{123e113ab51eb0c183fe920eb804b36b}
+      \strng{authorbibnamehash}{123e113ab51eb0c183fe920eb804b36b}
+      \strng{authornamehash}{123e113ab51eb0c183fe920eb804b36b}
+      \strng{authorfullhash}{123e113ab51eb0c183fe920eb804b36b}
+      \field{labelalpha}{Kob13}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{12}
+      \field{journaltitle}{Handbook of Graph Drawing and Visualization}
+      \field{title}{Force-Directed Drawing Algorithms}
+      \field{year}{2013}
+    \endentry
+    \entry{milldrawing}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3b2a0422b226f5202ea7c63f9f225e5e}{%
+           family={MILL},
+           familyi={M\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b2a0422b226f5202ea7c63f9f225e5e}
+      \strng{fullhash}{3b2a0422b226f5202ea7c63f9f225e5e}
+      \strng{bibnamehash}{3b2a0422b226f5202ea7c63f9f225e5e}
+      \strng{authorbibnamehash}{3b2a0422b226f5202ea7c63f9f225e5e}
+      \strng{authornamehash}{3b2a0422b226f5202ea7c63f9f225e5e}
+      \strng{authorfullhash}{3b2a0422b226f5202ea7c63f9f225e5e}
+      \field{labelalpha}{MIL}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Drawing Presentable Trees}
+    \endentry
+    \entry{bootstrap2019}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7abc1a233092fc104c7af72a89c0829c}{%
+           family={MIT},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{fullhash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{bibnamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authorbibnamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authornamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authorfullhash}{7abc1a233092fc104c7af72a89c0829c}
+      \field{labelalpha}{MIT19}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Bootstrap}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://getbootstrap.com/
+      \endverb
+      \verb{url}
+      \verb https://getbootstrap.com/
+      \endverb
+    \endentry
+    \entry{openicon2019}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7abc1a233092fc104c7af72a89c0829c}{%
+           family={MIT},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{fullhash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{bibnamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authorbibnamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authornamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authorfullhash}{7abc1a233092fc104c7af72a89c0829c}
+      \field{labelalpha}{MIT19}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Open Iconic}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.useiconic.com/open
+      \endverb
+      \verb{url}
+      \verb https://www.useiconic.com/open
+      \endverb
+    \endentry
+    \entry{nlab:map}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0a89dfdd854d93d67b3632032621fd61}{%
+           family={{nLab authors}},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a89dfdd854d93d67b3632032621fd61}
+      \strng{fullhash}{0a89dfdd854d93d67b3632032621fd61}
+      \strng{bibnamehash}{0a89dfdd854d93d67b3632032621fd61}
+      \strng{authorbibnamehash}{0a89dfdd854d93d67b3632032621fd61}
+      \strng{authornamehash}{0a89dfdd854d93d67b3632032621fd61}
+      \strng{authorfullhash}{0a89dfdd854d93d67b3632032621fd61}
+      \field{labelalpha}{nLa19}
+      \field{sortinit}{n}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{combinatorial map}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://ncatlab.org/nlab/show/combinatorial\%20map
+      \endverb
+      \verb{url}
+      \verb http://ncatlab.org/nlab/show/combinatorial%5C%20map
+      \endverb
+    \endentry
+    \entry{reingold1981tidier}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0ed93571b252e1ce226d43df1a6f938c}{%
+           family={Reingold},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=46a59f6c97946db78de8558f449bd5a8}{%
+           family={Tilford},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{659e637f746339f2edd5607307ae8751}
+      \strng{fullhash}{d1ad7b64ab694e6d3df5f68a2041585f}
+      \strng{bibnamehash}{d1ad7b64ab694e6d3df5f68a2041585f}
+      \strng{authorbibnamehash}{d1ad7b64ab694e6d3df5f68a2041585f}
+      \strng{authornamehash}{659e637f746339f2edd5607307ae8751}
+      \strng{authorfullhash}{d1ad7b64ab694e6d3df5f68a2041585f}
+      \field{labelalpha}{Rei81}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on software Engineering}
+      \field{number}{2}
+      \field{title}{Tidier drawings of trees}
+      \field{year}{1981}
+      \field{pages}{223\bibrangedash 228}
+      \range{pages}{6}
+    \endentry
+    \entry{richeson2008euler}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=74e1b6746742bc6c700f95db085f4eca}{%
+           family={Richeson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{74e1b6746742bc6c700f95db085f4eca}
+      \strng{fullhash}{74e1b6746742bc6c700f95db085f4eca}
+      \strng{bibnamehash}{74e1b6746742bc6c700f95db085f4eca}
+      \strng{authorbibnamehash}{74e1b6746742bc6c700f95db085f4eca}
+      \strng{authornamehash}{74e1b6746742bc6c700f95db085f4eca}
+      \strng{authorfullhash}{74e1b6746742bc6c700f95db085f4eca}
+      \field{labelalpha}{Ric08}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Euler's gem: the polyhedron formula and the birth of topology}
+      \field{volume}{6}
+      \field{year}{2008}
+    \endentry
+    \entry{ringel2012map}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=473e5de0e84ed4336dfbc8b5ece88190}{%
+           family={Ringel},
+           familyi={R\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{473e5de0e84ed4336dfbc8b5ece88190}
+      \strng{fullhash}{473e5de0e84ed4336dfbc8b5ece88190}
+      \strng{bibnamehash}{473e5de0e84ed4336dfbc8b5ece88190}
+      \strng{authorbibnamehash}{473e5de0e84ed4336dfbc8b5ece88190}
+      \strng{authornamehash}{473e5de0e84ed4336dfbc8b5ece88190}
+      \strng{authorfullhash}{473e5de0e84ed4336dfbc8b5ece88190}
+      \field{labelalpha}{Rin12}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Map color theorem}
+      \field{volume}{209}
+      \field{year}{2012}
+    \endentry
+    \entry{tamassia2013handbook}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=73002fbcaa8fe0ee76011401f23f2ab3}{%
+           family={Tamassia},
+           familyi={T\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{73002fbcaa8fe0ee76011401f23f2ab3}
+      \strng{fullhash}{73002fbcaa8fe0ee76011401f23f2ab3}
+      \strng{bibnamehash}{73002fbcaa8fe0ee76011401f23f2ab3}
+      \strng{authorbibnamehash}{73002fbcaa8fe0ee76011401f23f2ab3}
+      \strng{authornamehash}{73002fbcaa8fe0ee76011401f23f2ab3}
+      \strng{authorfullhash}{73002fbcaa8fe0ee76011401f23f2ab3}
+      \field{labelalpha}{Tam13}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of graph drawing and visualization}
+      \field{year}{2013}
+    \endentry
+    \entry{you2018vue}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c181205d8e6010f589e6c498afe0fe11}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c181205d8e6010f589e6c498afe0fe11}
+      \strng{fullhash}{c181205d8e6010f589e6c498afe0fe11}
+      \strng{bibnamehash}{c181205d8e6010f589e6c498afe0fe11}
+      \strng{authorbibnamehash}{c181205d8e6010f589e6c498afe0fe11}
+      \strng{authornamehash}{c181205d8e6010f589e6c498afe0fe11}
+      \strng{authorfullhash}{c181205d8e6010f589e6c498afe0fe11}
+      \field{labelalpha}{You18}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diakses dari https://vuejs. org/, pada tanggal}
+      \field{title}{Vue. js}
+      \field{volume}{17}
+      \field{year}{2018}
+    \endentry
+    \entry{zeps2012draw}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e006a78041bdc46bc4f1a90d8dc33a2e}{%
+           family={Zeps},
+           familyi={Z\bibinitperiod},
+           given={Dainis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=47c2871737db7db85f48181d556b4771}{%
+           family={Kikusts},
+           familyi={K\bibinitperiod},
+           given={Paulis},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{649cd8222333406ab11fba869690d863}
+      \strng{fullhash}{ae77cc77adbf35f57f483ec7bce990d7}
+      \strng{bibnamehash}{ae77cc77adbf35f57f483ec7bce990d7}
+      \strng{authorbibnamehash}{ae77cc77adbf35f57f483ec7bce990d7}
+      \strng{authornamehash}{649cd8222333406ab11fba869690d863}
+      \strng{authorfullhash}{ae77cc77adbf35f57f483ec7bce990d7}
+      \field{labelalpha}{Zep12}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1207.5673}
+      \field{title}{How to draw combinatorial map? From graphs and edges to corner rotations and permutations}
+      \field{year}{2012}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
