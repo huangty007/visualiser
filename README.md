@@ -1,2 +1,2 @@
-#Visualiser
+# Visualiser
 visualiser of combinatorial map
